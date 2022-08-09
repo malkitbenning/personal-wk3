@@ -1,7 +1,10 @@
 var images, arrayImage;
 
 
-images = ['https://drive.google.com/uc?export=view&id=13y3rcRFizD1q96q4fvvCl8OvqlWsk1l6', 'https://drive.google.com/uc?export=view&id=1Sqr0gB-Vef81BGjIdUruAQ-opte0e8ZH', 'https://drive.google.com/uc?export=view&id=1SgBM5pjGBC9ceedQCmriJpKVq6L9ZHJE'];
+images = 
+['https://raw.githubusercontent.com/malkitbenning/personal-wk3/dc83b8e046304cf85d2591402cec5aa8f0989eef/images/dancer1.jpg', 
+'https://raw.githubusercontent.com/malkitbenning/personal-wk3/dc83b8e046304cf85d2591402cec5aa8f0989eef/images/dancer2.jpg', 
+'https://raw.githubusercontent.com/malkitbenning/personal-wk3/dc83b8e046304cf85d2591402cec5aa8f0989eef/images/dancer3.jpg'];
 let element_showing_image = document.getElementById('showing-image');
 arrayImage = images.shift();
 element_showing_image.setAttribute("src", arrayImage);
